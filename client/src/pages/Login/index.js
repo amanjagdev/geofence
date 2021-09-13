@@ -10,7 +10,6 @@ const Login = ({ history }) => {
 	const [, setToken] = useRecoilState(tokenAtom);
 	const [password, setPassword] = useState("");
 	const [errors, setErrors] = useState(null);
-	const [selected, setSelected] = useState("user");
 
 	const apiUrl = process.env.REACT_APP_API_URL;
 
