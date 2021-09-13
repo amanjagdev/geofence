@@ -1,0 +1,15 @@
+.Footer {
+	display: flex;
+	margin-top: 15rem;
+	.copy {
+		display: flex;
+		align-items: center;
+		padding: 2.2rem 0 0.8rem 0;
+		font-size: 1rem;
+		color: var(--white);
+		justify-content: center;
+		span {
+			margin-left: 0.5rem;
+		}
+	}
+}

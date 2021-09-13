@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 12px;
+	font-family: SF Pro Display;
+	background: var(--back);
+	color: var(--secondary);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	margin: 0 20%;
+}
+
+button {
+	cursor: pointer;
+	padding: 0.8em 1.5em;
+	width: max-content;
+	outline: none;
+	border: none;
+	background: var(--accent-purple);
+	color: var(--white);
+	font-weight: 500;
+	border-radius: 0.8em;
+}
+
+a {
+	text-decoration: none;
+}
