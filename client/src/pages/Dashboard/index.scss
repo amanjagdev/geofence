@@ -1,0 +1,70 @@
+.Dashboard {
+	.container {
+		img {
+			height: 100%;
+			width: 100%;
+		}
+		padding: 3rem 0 0 0;
+		display: grid;
+		grid-template-columns: 2fr 5fr;
+		column-gap: 4rem;
+		.heading {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			.text {
+				margin-left: 1rem;
+				color: var(--accent);
+				font-weight: 500;
+			}
+			img {
+				width: 1.5rem;
+			}
+			margin-bottom: 2rem;
+		}
+		.people-cards {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			.people-card {
+				cursor: pointer;
+				font-size: 0.9rem;
+				width: 100%;
+				margin-bottom: 1.5rem;
+				background: var(--white);
+				padding: 1.5rem;
+				box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12);
+				border-radius: 1rem;
+				border: 1px solid rgb(231, 231, 231);
+				img {
+					margin-left: 1rem;
+					width: 1.5rem;
+				}
+				.alert-message {
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					color: var(--accent-red);
+				}
+			}
+			.people-selected {
+				color: var(--white);
+				background: var(--accent);
+			}
+			.alert {
+				background: var(--accent-red-light);
+			}
+			.alert.people-selected {
+				background: var(--accent-red);
+			}
+		}
+		.map-image {
+			max-width: 1014px;
+			max-height: 680px;
+			height: auto !important;
+			box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+				0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+			border-radius: 16px;
+		}
+	}
+}

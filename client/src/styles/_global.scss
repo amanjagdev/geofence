@@ -2,13 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Poppins";
 }
 
 body {
-	font-size: 12px;
-	font-family: SF Pro Display;
 	background: var(--back);
-	color: var(--secondary);
+	color: var(--text);
 }
 
 html {
@@ -16,7 +15,7 @@ html {
 }
 
 .container {
-	margin: 0 20%;
+	margin: 0 15%;
 }
 
 button {
@@ -25,7 +24,7 @@ button {
 	width: max-content;
 	outline: none;
 	border: none;
-	background: var(--accent-purple);
+	background: var(--accent);
 	color: var(--white);
 	font-weight: 500;
 	border-radius: 0.8em;
@@ -33,4 +32,32 @@ button {
 
 a {
 	text-decoration: none;
+}
+
+input:not(.date-pick) {
+	padding: 10px;
+	outline: none;
+	border: none;
+	background: #e7e7e7;
+	border-radius: 10px;
+	width: 300px;
+	margin: 7px 0;
+}
+input:focus {
+	border: 1px solid var(--accent);
+}
+select {
+	padding: 10px;
+	outline: none;
+	border: none;
+	background: #e7e7e7;
+	border-radius: 10px;
+	width: 320px;
+	margin: 7px 0;
+}
+label {
+	margin-top: 5px;
+	width: 100%;
+	margin-left: 10px;
+	color: var(--accent);
 }

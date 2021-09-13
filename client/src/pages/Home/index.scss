@@ -1,0 +1,27 @@
+.Home {
+	.box {
+		margin: 5rem 0;
+		padding: 5rem;
+		border-radius: 3rem;
+		background: var(--white);
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.left {
+			margin: auto 4rem auto 0;
+			.heading {
+				font-size: 2rem;
+				font-weight: bold;
+				margin-bottom: 1rem;
+			}
+			.description {
+				color: var(--secondary);
+				margin-bottom: 1rem;
+			}
+		}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

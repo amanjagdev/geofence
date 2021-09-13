@@ -1,0 +1,51 @@
+.NavBar {
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1.5rem 15%;
+		background: var(--white);
+		box-shadow: 0px 8px 18px -6px rgba(24, 75, 31, 0.12);
+		border-radius: 0 1rem;
+		figure {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			color: var(--accent);
+			font-size: 1.5rem;
+			font-weight: 600;
+			img {
+				height: 2rem;
+			}
+			figcaption {
+				margin-left: 1rem;
+			}
+		}
+		.nav-links {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			align-items: center;
+		}
+		.nav-link {
+			margin-right: 3rem;
+			cursor: pointer;
+		}
+		.nav-link:hover {
+			color: var(--accent);
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	nav {
+		grid-template-columns: 1fr 1fr !important;
+		.nav-links {
+			grid-row: 2;
+			margin: 2rem 0 0 0;
+			.nav-link {
+				margin-right: 1rem;
+			}
+		}
+	}
+}
