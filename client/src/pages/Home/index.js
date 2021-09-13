@@ -17,9 +17,8 @@ const Home = () => {
 					<div className="left">
 						<div className="heading">GeoFence it like pro!</div>
 						<div className="description">
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptates atque amet ipsa corrupti excepturi
-							nulla obcaecati tempora consectetur laborum quis!
+							Using acrgis mapping power to leverage our app to alert guardians whenever their ward goes out of the designated area
+							helped us to make something for the greater good.
 						</div>
 						<button className="cta" onClick={handleClick}>Get Started</button>
 					</div>
